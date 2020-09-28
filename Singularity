@@ -9,6 +9,7 @@ From: ubuntu:18.04
   export DEBIAN_FRONTEND=noninteractive
   apt-get update
   apt-get install -y git wget
+
   echo "DONE with OS install and update"
   echo "Define environment variable for conda install path"
   export ROOT_INSTALL_PATH="/usr/local"
